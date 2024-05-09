@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Fulfill"
+dependencies = [
+  "python-docx >= 1.1.2",
+]
+requires-python = ">= 3.8"
